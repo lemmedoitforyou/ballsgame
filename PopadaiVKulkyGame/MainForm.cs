@@ -23,7 +23,7 @@ namespace PopadaiVKulkyGame
         private int ballsClicked;
         private int currentMinBallSize;
         public string userName { get; set; }
-        private const string recordsFile = @"./Records.csv";
+        private const string recordsFile = "C:\\Users\\Adminnn\\Desktop\\папочка\\унік\\c#\\New folder\\PopadaiVKulkyGame\\PopadaiVKulkyGame\\Records.csv";
         public bool IsLogined { get; set; }
         public MainForm()
         {
