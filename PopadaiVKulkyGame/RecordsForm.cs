@@ -12,8 +12,8 @@ using System.Windows.Forms;
 namespace PopadaiVKulkyGame
 {
     public partial class RecordsForm : Form
-    {        
-        private string recordsFile = @"C:\Users\Adminnn\Desktop\папочка\унік\c#\New folder\PopadaiVKulkyGame\PopadaiVKulkyGame\Records.csv";
+    {
+        private string recordsFile = @"..\..\Records.csv";
 
         public RecordsForm()
         {

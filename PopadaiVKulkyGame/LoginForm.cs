@@ -14,7 +14,7 @@ namespace PopadaiVKulkyGame
     public partial class LoginForm : Form
     {
         private MainForm mainForm;
-        private const string playersFile = "C:\\Users\\Adminnn\\Desktop\\папочка\\унік\\c#\\New folder\\PopadaiVKulkyGame\\PopadaiVKulkyGame\\Players.csv";
+        private const string playersFile = @"..\..\Players.csv";
         public LoginForm(MainForm mainForm)
         {
             InitializeComponent();
